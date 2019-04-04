@@ -3,7 +3,7 @@ import IGLogo from '../../assets/iglogo.png';
 import './SearchBar.css';
 
 const SearchBar = () => {
-  return (
+  return ( 
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
         <img alt="instagram logo" src={IGLogo} className="logo-image" />
