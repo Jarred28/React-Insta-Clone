@@ -4,7 +4,7 @@ import './Post.css';
 
 const PostContainer = props => {
   return (
-    <div className="post-container-wrapper">
+    <div className="Post-container-wrapper">
       {props.post.map(p => <Post key={p.imageUrl} post={p} />)}
     </div>
   );
